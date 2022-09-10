@@ -61,8 +61,6 @@ set smartcase                     " turn on smartcase
 set expandtab
 set tabstop=4
 set shiftwidth=4
-" vim-autoformat
-noremap <F3> :Autoformat<CR>
 
 "NERDTree setup
 "
@@ -90,4 +88,4 @@ let g:coc_disable_startup_warning = 1
 inoremap <silent><expr> <TAB>
       \ coc#pum#visible() ? coc#pum#confirm():
       \ coc#refresh()
-:set ttimeoutlen=1000 timeoutlen=0
+:set ttimeoutlen=0 timeoutlen=0
