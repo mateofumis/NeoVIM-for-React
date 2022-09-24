@@ -43,7 +43,6 @@ if has("gui_running")
   set guicursor=n-v-c-sm:block,i-ci-ve:block,r-cr-o:blocks
 endif
 set number
-set relativenumber
 set hidden
 set mouse=a
 set noshowmode
